@@ -1,4 +1,6 @@
 import 'package:flutter/material.dart';
+import 'package:provider/provider.dart';
+import 'package:todoey/models/task_data.dart';
 
 class AddTaskScreen extends StatefulWidget {
   AddTaskScreen({this.callback});
@@ -12,7 +14,7 @@ class _AddTaskScreenState extends State<AddTaskScreen> {
   @override
   Widget build(BuildContext context) {
     String taskTitle;
-    
+
     return Container(
       child: Container(
         color: Color(0xff757575),
@@ -38,8 +40,8 @@ class _AddTaskScreenState extends State<AddTaskScreen> {
               TextField(
                 autofocus: true,
                 textAlign: TextAlign.center,
-                onChanged: (String newTaskTitle) =>
-                    taskTitle = newTaskTitle,
+                onChanged: (String newTaskTitle) => taskTitle = newTaskTitle,
+                onSubmitted: this.changeTaskTitle(taskTitle),
               ),
               FlatButton(
                 child: Text(
@@ -49,14 +51,18 @@ class _AddTaskScreenState extends State<AddTaskScreen> {
                   ),
                 ),
                 color: Colors.lightBlueAccent,
-                onPressed: () {
-                  widget.callback(taskTitle);
-                },
-              )
+                onPressed: () => this.changeTaskTitle(taskTitle),
+              ),
             ],
           ),
         ),
       ),
     );
+  }
+
+  ValueChanged<String> changeTaskTitle(String newTitle) {
+    Provider.of<TaskData>(context).add(newTitle);
+    widget.callback();
+    return null;
   }
 }

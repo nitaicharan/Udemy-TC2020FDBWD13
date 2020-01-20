@@ -2,6 +2,7 @@ file:///home/acdan/Git/Udemy-TC2020FDBWD13/.dart_tool/flutter_build/c60501128bb0
 file:///home/acdan/Git/Udemy-TC2020FDBWD13/.packages
 file:///home/acdan/Git/Udemy-TC2020FDBWD13/lib/main.dart
 file:///home/acdan/Git/Udemy-TC2020FDBWD13/lib/models/task.dart
+file:///home/acdan/Git/Udemy-TC2020FDBWD13/lib/models/task_data.dart
 file:///home/acdan/Git/Udemy-TC2020FDBWD13/lib/screens/add_task_screen.dart
 file:///home/acdan/Git/Udemy-TC2020FDBWD13/lib/screens/tasks_screen.dart
 file:///home/acdan/Git/Udemy-TC2020FDBWD13/lib/widgets/task_tile.dart
@@ -27,6 +28,18 @@ file:///opt/Flutter/.pub-cache/hosted/pub.dartlang.org/collection-1.14.11/lib/sr
 file:///opt/Flutter/.pub-cache/hosted/pub.dartlang.org/collection-1.14.11/lib/src/utils.dart
 file:///opt/Flutter/.pub-cache/hosted/pub.dartlang.org/collection-1.14.11/lib/src/wrappers.dart
 file:///opt/Flutter/.pub-cache/hosted/pub.dartlang.org/meta-1.1.8/lib/meta.dart
+file:///opt/Flutter/.pub-cache/hosted/pub.dartlang.org/nested-0.0.4/lib/nested.dart
+file:///opt/Flutter/.pub-cache/hosted/pub.dartlang.org/provider-4.0.2/lib/provider.dart
+file:///opt/Flutter/.pub-cache/hosted/pub.dartlang.org/provider-4.0.2/lib/src/async_provider.dart
+file:///opt/Flutter/.pub-cache/hosted/pub.dartlang.org/provider-4.0.2/lib/src/change_notifier_provider.dart
+file:///opt/Flutter/.pub-cache/hosted/pub.dartlang.org/provider-4.0.2/lib/src/consumer.dart
+file:///opt/Flutter/.pub-cache/hosted/pub.dartlang.org/provider-4.0.2/lib/src/deferred_inherited_provider.dart
+file:///opt/Flutter/.pub-cache/hosted/pub.dartlang.org/provider-4.0.2/lib/src/inherited_provider.dart
+file:///opt/Flutter/.pub-cache/hosted/pub.dartlang.org/provider-4.0.2/lib/src/listenable_provider.dart
+file:///opt/Flutter/.pub-cache/hosted/pub.dartlang.org/provider-4.0.2/lib/src/provider.dart
+file:///opt/Flutter/.pub-cache/hosted/pub.dartlang.org/provider-4.0.2/lib/src/proxy_provider.dart
+file:///opt/Flutter/.pub-cache/hosted/pub.dartlang.org/provider-4.0.2/lib/src/selector.dart
+file:///opt/Flutter/.pub-cache/hosted/pub.dartlang.org/provider-4.0.2/lib/src/value_listenable_provider.dart
 file:///opt/Flutter/.pub-cache/hosted/pub.dartlang.org/typed_data-1.1.6/lib/typed_buffers.dart
 file:///opt/Flutter/.pub-cache/hosted/pub.dartlang.org/vector_math-2.0.8/lib/hash.dart
 file:///opt/Flutter/.pub-cache/hosted/pub.dartlang.org/vector_math-2.0.8/lib/src/vector_math_64/aabb2.dart
