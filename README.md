@@ -10,20 +10,19 @@ Project available to access at: https://nitaicharan.github.io/Udemy-TC2020FDBWD1
 <!--[![](Udemy-TC2020FDBWD13.png)](https://nitaicharan.github.io/Udemy-TC2020FDBWD13/)-->
 <a href="https://nitaicharan.github.io/Udemy-TC2020FDBWD13">
   <p align="center">
-    <img src="Udemy-TC2020FDBWD13.png" width="350" title="hover text">
+    <img src="Udemy-TC2020FDBWD13.png" width="350">
   </p>
 </a>
-
 
 ## About course
 This project was part of the Udemy course "The Complete 2020 Flutter Development Bootcamp with Dart" by Angela Yu.
 
-- Course: [Link][course-url]
-- Instructor: [Link][instructor-url]
-- Description: [Link][course-url]
+- [Course][course-url]
+- [Instructor][instructor-url]
+- [Certificate][certificate-url]
 
 ### Certificate
-This certificate above verifies that [Nitai Charan][udemy-url] successfully completed the course [The Complete 2020 Flutter Development Bootcamp with Dart][course-url] on 12/27/2019 as taught by [Angela Yu][instructor-url] on Udemy. The certificate indicates the entire course was completed as validated by the student.
+This certificate above verifies that [Nitai Charan][udemy-url] successfully completed the course [The Complete 2020 Flutter Development Bootcamp with Dart][course-url] on 01/21/2020 as taught by [Angela Yu][instructor-url] on Udemy. The certificate indicates the entire course was completed as validated by the student.
 
 [![](certificate.jpg)][certificate-url]
 
@@ -51,26 +50,26 @@ git push origin `git subtree split --prefix build/web/ master`:gh-pages --force
 <!-- https://www.markdownguide.org/basic-syntax/#reference-style-links -->
 
 <!-- ALIES README -->
-[course-url]: https://www.udemy.com/course/flutter-bootcamp-with-dart/
-[instructor-url]: https://www.udemy.com/user/4b4368a3-b5c8-4529-aa65-2056ec31f37e/
-[certificate-url]: #
+[course-url]: https://udemy.com/course/flutter-bootcamp-with-dart/
+[instructor-url]: https://udemy.com/user/4b4368a3-b5c8-4529-aa65-2056ec31f37e/
+[certificate-url]: https://ude.my/UC-9063G6AV
 
 
 <!-- CONTACT SHIELDS -->
 [linkedin-shield]: https://img.shields.io/badge/-LinkedIn-white.svg?logo=linkedin&colorB=0077B5&logoColor=white
-[linkedin-url]: https://www.linkedin.com/in/nitaicharan/
+[linkedin-url]: https://linkedin.com/in/nitaicharan/
 [gmail-shield]: https://img.shields.io/badge/-Gmail-black.svg?logo=gmail&colorB=D14836&logoColor=white
 [gmail-url]: mailto:niaicharan@gmail.com?subject=It%20comes%20from%20Github%20profile
 [github-shield]: https://img.shields.io/badge/-Github-black.svg?logo=github&colorB=181717&logoColor=white
 [github-url]: https://github.com/nitaicharan
 [instagram-shield]: https://img.shields.io/badge/-Instagram-black.svg?logo=instagram&colorB=EC5252&logoColor=white
-[instagram-url]: https://www.instagram.com/nitaicharan/?hl=pt-br
+[instagram-url]: https://instagram.com/nitaicharan/?hl=pt-br
 [twitter-shield]: https://img.shields.io/badge/-Twitter-black.svg?logo=twitter&colorB=1DA1F2&logoColor=white
 [twitter-url]: https://twitter.com/nitaicharan1
 [facebook-shield]: https://img.shields.io/badge/-Facebook-black.svg?logo=facebook&colorB=4172B8&logoColor=white
-[facebook-url]: https://www.facebook.com/NitaiCharan1
+[facebook-url]: https://facebook.com/NitaiCharan1
 [udemy-shield]: https://img.shields.io/badge/-Udemy-black.svg?logo=udemy&colorB=EC5252&logoColor=white
-[udemy-url]: https://www.udemy.com/user/nitai-charan/
+[udemy-url]: https://udemy.com/user/nitai-charan/
 [hackerrank-shield]: https://img.shields.io/badge/-HackerRank-white.svg?logo=hackerrank&colorB=2EC866&logoColor=white
 [hackerrank-url]: https://www.hackerrank.com/nitaicharan
 
