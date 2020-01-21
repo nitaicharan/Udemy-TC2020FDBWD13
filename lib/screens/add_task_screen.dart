@@ -41,7 +41,6 @@ class _AddTaskScreenState extends State<AddTaskScreen> {
                 autofocus: true,
                 textAlign: TextAlign.center,
                 onChanged: (String newTaskTitle) => taskTitle = newTaskTitle,
-                onSubmitted: this.changeTaskTitle(taskTitle),
               ),
               FlatButton(
                 child: Text(
@@ -51,18 +50,15 @@ class _AddTaskScreenState extends State<AddTaskScreen> {
                   ),
                 ),
                 color: Colors.lightBlueAccent,
-                onPressed: () => this.changeTaskTitle(taskTitle),
+                onPressed: () {
+                  Provider.of<TaskData>(context,listen: false).add(taskTitle);
+                  widget.callback();
+                },
               ),
             ],
           ),
         ),
       ),
     );
-  }
-
-  ValueChanged<String> changeTaskTitle(String newTitle) {
-    Provider.of<TaskData>(context).add(newTitle);
-    widget.callback();
-    return null;
   }
 }
